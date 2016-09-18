@@ -1,4 +1,42 @@
 {
+  "stickers" : [
+    {
+      "filename" : "1_emo_laugh@3x_.sticker"
+    },
+    {
+      "filename" : "2_emo_like@3x_.sticker"
+    },
+    {
+      "filename" : "3_emo_cool@3x_.sticker"
+    },
+    {
+      "filename" : "4_emo_cry@3x_.sticker"
+    },
+    {
+      "filename" : "5_emo_cute@3x_.sticker"
+    },
+    {
+      "filename" : "6_emo_suprise@3x_.sticker"
+    },
+    {
+      "filename" : "7_emo_play@3x_.sticker"
+    },
+    {
+      "filename" : "8_emo_love@3x_.sticker"
+    },
+    {
+      "filename" : "9_emo_happy@3x_.sticker"
+    },
+    {
+      "filename" : "10_emo_anger@3x_.sticker"
+    },
+    {
+      "filename" : "11_emo_sad@3x_.sticker"
+    },
+    {
+      "filename" : "12_emo_night@3x_.sticker"
+    }
+  ],
   "info" : {
     "version" : 1,
     "author" : "xcode"

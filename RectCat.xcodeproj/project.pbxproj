@@ -106,11 +106,13 @@
 				TargetAttributes = {
 					F2D93C901D8E757F008770C7 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X342LX7QRW;
+						ProvisioningStyle = Manual;
 					};
 					F2D93C941D8E757F008770C7 = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = X342LX7QRW;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -252,10 +254,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.RectCat.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ecc94c52-f180-4cca-b298-f84992fd6469";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -263,10 +270,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = StickerPackExtension/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.RectCat.StickerPackExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ecc94c52-f180-4cca-b298-f84992fd6469";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -274,9 +286,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = RectCat/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.RectCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ecc94c52-f180-4cca-b298-f84992fd6469";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -285,9 +301,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = X342LX7QRW;
 				INFOPLIST_FILE = RectCat/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zxq.RectCat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ecc94c52-f180-4cca-b298-f84992fd6469";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -311,6 +331,7 @@
 				F2D93CA01D8E757F008770C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2D93CA21D8E757F008770C7 /* Build configuration list for PBXNativeTarget "RectCat" */ = {
 			isa = XCConfigurationList;
@@ -319,6 +340,7 @@
 				F2D93CA41D8E757F008770C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
